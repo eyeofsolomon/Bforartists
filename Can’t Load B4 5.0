@@ -1,0 +1,12 @@
+This is the same problem I had with 4.5. 
+I needed to access the open anyway function on my Mac. I used this command in the terminal.
+sudo spctl --master-disable
+After typing in the command, I hit enter put in my pass code for my computer.
+I tried to open 5.0 and it wouldn't open.
+I tried another command in the terminal
+sudo xattr -d com.apple.quarantine 
+After typing in the command, I hit enter put in my pass code for my computer.
+5.0 opend.
+I chose the to load the preferences from the previous version.
+Has 5.0 was trying to load the preferences from 4.4 it shut down
+When I tried to start it again, an error opened instead.
